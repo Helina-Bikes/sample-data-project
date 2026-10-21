@@ -12,3 +12,4 @@ with open(filename,'w',newline='', encoding="utf-8") as file:
     writer.writerows(data)
 print(f"Data has been written to {filename}")
 print(f"number of records written: {len(data)}")
+print("sample data generation completed successfully")
